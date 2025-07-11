@@ -4,6 +4,7 @@
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
+    margin: -50px;
   }
 
 nav{
@@ -22,8 +23,22 @@ nav{
 nav ul li{
     list-style-type: none;
 }
+div li{
+    list-style-type: none;
+}
 nav li{
     text-decoration: none;
+}
+
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 700px;
+    background-position: center top;
+    display: block;
+    justify-content: center;
+    margin: 0px auto;
 }
 
 .btn-primary{
@@ -35,4 +50,17 @@ nav li{
     border-radius: 10px;
     border: none;
 
+}
+
+.h-banner-content {
+    margin-top: 160px;
+    margin-bottom: 160px;
+    text-align: center;
+}
+.banner-text{
+    font-size: 65px;
+    font-weight: bold;
+}
+.h-b{
+    margin-bottom: 200px;
 }
