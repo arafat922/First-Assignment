@@ -336,7 +336,8 @@ div div form li button{
     margin-bottom: 0%;
 }
 .p-f{
-    margin: 0px 150px;
+    width: 70%;
+    margin: 0px auto;
     font-size: 22px;
     font-weight: 500px;
 
@@ -345,9 +346,9 @@ div div form li button{
    
     display: flex;
     gap: 10px;
-    
+    width: 60%;
     padding: 20px;
-    margin: 0px;
+    margin: 0px auto;
     justify-content: space-around;
     
 }
@@ -355,7 +356,7 @@ div div form li button{
 .l-p{
     
     
-    margin: 0px 400px 0px 400px;
+    margin: 20px auto;
     
 }
 .f-link{
