@@ -1,12 +1,12 @@
 body{
-    background-color: #f7f7f7;
+    background-color: hsl(0, 0%, 97%);
 }
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
-    margin: -50px;
+    margin: 50px;
   }
 
 nav{
@@ -32,10 +32,18 @@ nav li{
     text-decoration: none;
 }
 
+.main{
+    width: 1140px;
+    margin: auto;
+}
+
+
+
+
 .header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
-    width: 1440px;
+    width: auto;
     height: 700px;
     background-position: center top;
     display: block;
@@ -81,14 +89,12 @@ nav li{
     size: 200px 520px;
 }
 .mini{
-    margin: auto;
     width: auto;
     border-radius: 48px;
 }
 .s1-h{
     font-size: 42px;
     font-weight: bold;
-    margin: 0px;
 }
 .s1-p{
     font-size: 24px;
@@ -96,7 +102,7 @@ nav li{
 }
 .section2{
     padding: 50px;
-    margin: 100px auto;
+    margin: 100px 10px;
     width: 1140px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 25px;
@@ -121,7 +127,7 @@ nav li{
 }
 .section3{
     padding: 50px;
-    margin: 100px auto;
+    margin: 100px 10px;
     width: 1140px;
 }
 
@@ -176,10 +182,10 @@ nav li{
 }
 .section4{
     padding: 70px;
-    margin: auto;
+    margin: 100px 10px;
     text-align: center;
     background-color: #ffffff;
-    width: 1140px;
+    width: 1100px;
     border-radius: 14px;
 }
 .s4-h{
@@ -202,4 +208,111 @@ nav li{
 }
 .b-m{
     margin: 30px;
+}
+
+
+.section5{
+    padding: 70px;
+    margin: 100px 10px;
+    background-color: hsl(0, 0%, 97%);
+    width: 1240px;
+    border-radius: 14px;
+    align-items: center;
+    padding: 70px 0px 70px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+div div form div input[type="text"]{
+    width: 620px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-style: normal;
+    border-style: solid;
+    border-color: white;
+}
+div div form div input[type="email"]{
+    width: 620px;
+    margin-right: 0px;
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-style: normal;
+    border-style: solid;
+    border-color: white;
+}
+.s5-p2-h{
+    font-size: 18px;
+    font-weight: 500px;
+    margin: 10px;
+}
+
+
+.btn-primary2{
+    text-align: center;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    width: 100%;}
+
+.s5-text{
+        font-weight: bolder;
+        font-size: 90px;
+ }
+
+
+
+.footer{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.btn-footer{
+    font-size: 36px;
+    background-color: hsl(0, 0%, 97%);
+    border: none;
+}
+.logo-name-footer{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0%;
+}
+.p-f{
+    font-size: 22px;
+    font-weight: 500px;
+
+}
+.f-d{
+   
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    justify-content: space-around;
+    
+}
+
+.l-p{
+    
+    text-align: center;
+   margin: 0px 600px;
+    
+}
+.f-link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #5c5c5c;
+    font-weight: 600;
 }
