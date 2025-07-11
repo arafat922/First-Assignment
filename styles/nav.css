@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f7f7f7;
+}
 .raleway-normal {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -114,4 +116,59 @@ nav li{
 .s2-n-p{
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
+}
+.section3{
+    padding: 50px;
+    margin: 100px auto;
+    width: 1140px;
+}
+
+.avater-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.s3-c-id{
+    display: flex;
+}
+.s3-c-h{
+    margin: 0px 0px 0px 12px;
+    color: rgba(117, 117, 117, 1);
+}
+.s3-c-p{
+    margin: 3px 3px 3px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #B3B3B3;
+}
+.s3-c{
+    background-color: #ffffff;
+    padding: 24px;
+    width: 320px;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: #ffb80534;
+    border-width: 1px;
+}
+.s3-c-c{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 3px;
+}
+.star{
+    margin-bottom: 20px;
+}
+.s3-a-c{
+    line-height: 25px;
+    text-align: left;
+}
+.s3-md{
+    display: flex;
+    justify-content: space-between;
+}
+.s3-mh{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(37, 36, 50, 1);
 }
