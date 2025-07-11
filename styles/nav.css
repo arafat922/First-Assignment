@@ -51,6 +51,7 @@ nav li{
     padding: 12px 35px;
     border-radius: 10px;
     border: none;
+    margin: auto;
 
 }
 
@@ -67,6 +68,7 @@ nav li{
     margin-bottom: 200px;
 }
 .section1{
+    align-items: center;
     text-align: left;
     display: flex;
     margin: auto;
@@ -171,4 +173,33 @@ nav li{
     font-weight: bold;
     text-align: center;
     color: rgba(37, 36, 50, 1);
+}
+.section4{
+    padding: 70px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    width: 1140px;
+    border-radius: 14px;
+}
+.s4-h{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.s4-d{
+    font-size: 17px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+.s4-image{
+    width: 840px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.h-b{
+    margin: auto;
+}
+.b-m{
+    margin: 30px;
 }
