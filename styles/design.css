@@ -132,6 +132,7 @@ nav li{
     width: 80%;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 25px;
+    box-shadow: #43444b8c 1px 1px 20px;
 }
 
 .s2-numbers{
@@ -157,6 +158,7 @@ nav li{
     padding: 50px;
     margin: 100px auto;
     width: 80%;
+    
 }
 
 .avater-image{
@@ -216,7 +218,8 @@ nav li{
     width: 80%;
     text-align: center;
     background-color: #ffffff;
-    border-radius: 14px;
+    border-radius: 90px;
+    box-shadow: #43444b8c 1px 1px 20px;
 }
 .s4-h{
     font-size: 50px;
@@ -242,7 +245,7 @@ nav li{
 
 
 .section5{
-    padding: 50px;
+    padding: 0px;
     margin: 100px auto;
     width: 80%;
     background-color: hsl(0, 0%, 97%);
@@ -258,7 +261,7 @@ nav li{
 
 
 div div form div input[type="text"]{
-    
+    width: 100%;
     border-radius: 10px;
     padding: 20px 32px;
     font-size: 20px;
@@ -266,8 +269,11 @@ div div form div input[type="text"]{
     border-style: solid;
     border-color: white;
 }
+#message{padding: 20px 32px 80px 32px;
+
+}
 div div form div input[type="email"]{
-    
+    width: 100%;
     margin-right: 0px;
     border-radius: 10px;
     padding: 20px 32px;
@@ -283,7 +289,7 @@ div div form div input[type="email"]{
 }
 
 
-.btn-primary2{
+div div form li button{
     text-align: center;
     background-color: #4E47FF;
     color: white;
@@ -293,7 +299,7 @@ div div form div input[type="email"]{
     border-radius: 10px;
     border: none;
     margin: 0px 0px 0px 0px;
-    width: 100%;}
+    }
 .btn-primary2:hover{
     background-color: #000000;
     color: #ffffff;
@@ -303,6 +309,7 @@ div div form div input[type="email"]{
     
 }
 .s5-text{
+        width: 60%;
         font-weight: bolder;
         font-size: 90px;
         
@@ -348,7 +355,7 @@ div div form div input[type="email"]{
 .l-p{
     
     
-    margin: 0px 200px 0px 200px;
+    margin: 0px 400px 0px 400px;
     
 }
 .f-link{
