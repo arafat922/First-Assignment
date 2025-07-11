@@ -64,3 +64,54 @@ nav li{
 .h-b{
     margin-bottom: 200px;
 }
+.section1{
+    text-align: left;
+    display: flex;
+    margin: auto;
+    width: 1140px;
+    justify-content: space-between;
+}
+.action-content{
+    align-items: center top;
+    margin: auto;
+    size: 200px 520px;
+}
+.mini{
+    margin: auto;
+    width: auto;
+    border-radius: 48px;
+}
+.s1-h{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0px;
+}
+.s1-p{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.section2{
+    padding: 50px;
+    margin: 100px auto;
+    width: 1140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+}
+
+.s2-numbers{
+    display: flex;
+    justify-content: space-around;
+}
+.s2-h{
+    text-align: center;
+}
+.s2-n-h{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 0%;
+}
+.s2-n-p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
